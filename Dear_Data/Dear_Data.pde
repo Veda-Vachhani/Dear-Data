@@ -1,5 +1,5 @@
 void setup() {
-  size(600, 600);
+  size(900, 600);
   background(255);
 }
 
@@ -9,4 +9,6 @@ void draw() {
     stroke(#85C9E3);
     line(0, 0+i, width, i);
   }
+  stroke(255, 0, 0);
+  line(100, 0, 100, height);
 }
