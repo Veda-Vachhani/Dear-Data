@@ -4,5 +4,9 @@ void setup() {
 }
 
 void draw() {
-  
+  for (int i=0; i<height; i=i+30)
+  {
+    stroke(#85C9E3);
+    line(0, 0+i, width, i);
+  }
 }
